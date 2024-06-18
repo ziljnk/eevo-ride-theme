@@ -1,0 +1,429 @@
+{
+  "sections": {
+    "hero-video": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "Watch",
+        "link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "rich_text_DmAYmB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_tqEGPf": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><em><strong>Designed for travel and built for adventure! <br\/>Crafted for commuters, delivery riders and social warriors.<\/strong><\/em><\/p>"
+          }
+        },
+        "heading_XtLa48": {
+          "type": "heading",
+          "settings": {
+            "title": "JOIN THE E-EVOLUTION!"
+          }
+        }
+      },
+      "block_order": [
+        "text_tqEGPf",
+        "heading_XtLa48"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "scrolling_text_mQzUPt": {
+      "type": "scrolling-text",
+      "settings": {
+        "text": "Let's Ride!",
+        "link": "",
+        "text_size": 66,
+        "text_spacing": true,
+        "direction": "left",
+        "speed": 200
+      }
+    },
+    "text_and_image_ebXM9D": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/Artboard16_2x_e73246b2-d03c-49fb-80d0-623d63b4235f.png",
+        "image2_mask": "none",
+        "subtitle": "For Commuters & Social Warriors",
+        "title": "X Cruiz Electric Bike",
+        "text": "<p><em>Style | Performance | Comfort<\/em><br\/><br\/>Whether you are a daily commuter, surf lover or dog parent the X Cruiz has got you covered. Our high performance E-Bike gets you where you need to go in comfort and style. Built to last with a lightweight frame, dependable battery and unmatched performance. <\/p>",
+        "button_label": "Get Yours Today!",
+        "button_link": "shopify:\/\/products\/cruiser-electric-bike",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "featured-collection-switcher": {
+      "type": "featured-collection-switcher",
+      "settings": {
+        "title": "Most popular",
+        "collection1": "best-sellers",
+        "collection2": "accessories",
+        "per_row": 4,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text_T4FNBj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h2><strong>\"The X Cruiz has changed the way I travel. It's left me enjoying the road again.\"  - Michelle | Mother of 3<\/strong><\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_T4FNBj"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
+    "fading-images": {
+      "type": "fading-images",
+      "blocks": {
+        "1498501481980-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_14_2x_5b819653-1b78-41bb-8cad-2dc59f79e9ad.png",
+            "slide_title1": "Beautifully animated",
+            "slide_title2": "titles and images"
+          }
+        },
+        "1498501481980-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard16_2x_e73246b2-d03c-49fb-80d0-623d63b4235f.png",
+            "slide_title1": "Use this section",
+            "slide_title2": "to impress"
+          }
+        }
+      },
+      "block_order": [
+        "1498501481980-0",
+        "1498501481980-1"
+      ],
+      "settings": {
+        "title_lines": "2",
+        "title_font": "body",
+        "title_size": 45,
+        "title_color": "#ffffff",
+        "title_bg_color": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "link": "",
+        "slide_speed": 5,
+        "color_overlay": "#000000",
+        "color_overlay_opacity": 30,
+        "desktop_height": "650px",
+        "mobile_height": "auto",
+        "lazyload_images": true
+      }
+    },
+    "featured_product_zr3Kgb": {
+      "type": "featured-product",
+      "blocks": {
+        "price_pmd8an": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "separator_hikiRM": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker_CBRCYh": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons_tmfaFe": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description_DMd3eL": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "complementary_products_HKdR89": {
+          "type": "complementary_products",
+          "settings": {
+            "product_complementary_heading": "Pairs well with",
+            "complementary_count": 4,
+            "per_slide": 2,
+            "control_type": "dots",
+            "image_style": "default"
+          }
+        }
+      },
+      "block_order": [
+        "price_pmd8an",
+        "separator_hikiRM",
+        "variant_picker_CBRCYh",
+        "buy_buttons_tmfaFe",
+        "description_DMd3eL",
+        "complementary_products_HKdR89"
+      ],
+      "settings": {
+        "featured_product": "cruiser-electric-bike",
+        "divider": false,
+        "sku_enable": false,
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "countdown_9pm8fd": {
+      "type": "countdown",
+      "blocks": {
+        "content_M38yWY": {
+          "type": "content",
+          "settings": {
+            "heading": "New Stock",
+            "heading_size": "h2",
+            "text": "<p>Our Next Stock Will be Here In!<\/p>",
+            "content_alignment": "left"
+          }
+        },
+        "timer_78qFbq": {
+          "type": "timer",
+          "settings": {
+            "year": "2024",
+            "month": "07",
+            "day": "1",
+            "hour": "09",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "button_RQaAgB": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Shop Collection",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content_M38yWY",
+        "timer_78qFbq",
+        "button_RQaAgB"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
+    "custom_html_iXN3R4": {
+      "type": "custom-HTML",
+      "settings": {
+        "title": "",
+        "custom_HTML": "<img alt=\"image\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0563\/5394\/7750\/files\/gempages_491198449891410747-4954eb64-14da-4f05-9492-ae36cfa93388.webp?v=1717731247\">"
+      }
+    },
+    "collection-callout": {
+      "type": "collection-callout",
+      "settings": {
+        "collection": "e-bikes-accessories",
+        "subtitle": "Style | Upgrade | Unleash",
+        "title": "Accessorise Me!",
+        "text": "",
+        "cta_text1": "Shop Now",
+        "cta_link1": "shopify:\/\/collections\/e-bikes-accessories",
+        "cta_text2": "",
+        "cta_link2": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "background_image_text_CXibH4": {
+      "type": "background-image-text",
+      "custom_css": [
+        ".background-media-text__container img {object-fit: cover;}",
+        ".background-media-text__text {background-color: transparent; text-align: center; color: #fff; width: 100%; display: flex; flex-direction: column-reverse; gap: 24px; justify-content: center;}",
+        ".background-media-text__text .h3 {font-size: 24px;}",
+        ".background-media-text__aligner {display: flex; justify-content: center; align-items: center; height: 100%;}"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Michelle - Mother of 3",
+        "text": "<p>\"The X Cruiz is my road trip BFF, making every journey a delightful<br\/>escapade filled with laughter, discovery, and unforgettable moments.\"<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Frame_44.png",
+        "layout": "left",
+        "height": 450,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "testimonials_JFQUQk": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_hEeMda": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>A month with the X Cruiz on the Gold Coast has been fantastic. It's sturdy, reliable, and the battery lasts forever!<\/p>",
+            "author": "Jack R",
+            "author_info": "Gold Coast, QLD"
+          }
+        },
+        "testimonial_UL7hPx": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Loving my X Cite in Byron Bay—handles the rough terrains and corners like a champ!<\/p>",
+            "author": "Lucy M",
+            "author_info": "Byron Bay, NSW"
+          }
+        },
+        "testimonial_4DGhLw": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The E MX is perfect for Brisbane’s mixed paths—fast, stable, and sleek.<\/p>",
+            "author": "Dan S",
+            "author_info": "Brisbane, QLD"
+          }
+        },
+        "testimonial_V3iGye": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The X Cruiz is stylish and practical. Perfect for both beach rides and city commutes.<\/p>",
+            "author": "Emma T",
+            "author_info": "Gold Coast, QLD"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_hEeMda",
+        "testimonial_UL7hPx",
+        "testimonial_4DGhLw",
+        "testimonial_V3iGye"
+      ],
+      "settings": {
+        "title": "Don't take our word for it",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "hotspots_RMThCN": {
+      "type": "hotspots",
+      "blocks": {
+        "product_CFEGDU": {
+          "type": "product",
+          "settings": {
+            "featured_product": "moped-surfboard-rack",
+            "vertical": 48,
+            "horizontal": 41
+          }
+        },
+        "product_yEWmh4": {
+          "type": "product",
+          "settings": {
+            "featured_product": "cruiser-electric-bike",
+            "vertical": 45,
+            "horizontal": 86
+          }
+        }
+      },
+      "block_order": [
+        "product_CFEGDU",
+        "product_yEWmh4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop the look",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "image": "shopify:\/\/shop_images\/WhatsAppImage2024-03-23at3.51.29PM_5.jpg",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
+    },
+    "map_awexPa": {
+      "type": "map",
+      "settings": {
+        "map_title": "Our Warehouse",
+        "address": "<p>22 Christine Avenue, <br\/>Miami, Gold Coast, <br\/>4212, QLD<\/p><p>Mon - Fri, 10:00am - 5:00pm<\/p>",
+        "map_address": "22 Christine Avenue, Miami, Gold Coast, 4212, QLD",
+        "api_key": "AIzaSyDSRPlEqvZQiUprChGblOkvyOL1hFiaQuc",
+        "show_button": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "hero-video",
+    "rich_text_DmAYmB",
+    "scrolling_text_mQzUPt",
+    "text_and_image_ebXM9D",
+    "featured-collection-switcher",
+    "rich-text",
+    "fading-images",
+    "featured_product_zr3Kgb",
+    "countdown_9pm8fd",
+    "custom_html_iXN3R4",
+    "collection-callout",
+    "background_image_text_CXibH4",
+    "testimonials_JFQUQk",
+    "hotspots_RMThCN",
+    "map_awexPa"
+  ]
+}

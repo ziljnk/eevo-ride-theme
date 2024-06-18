@@ -1,0 +1,475 @@
+
+
+<link {% if section.settings.section_preload == "false" %} class="gps-link" delay="{{ 'gp-section-502513502812963784.css' | asset_url }}" {% else %} href="{{ 'gp-section-502513502812963784.css' | asset_url }}" {% endif %} rel="stylesheet" type="text/css" media="all">
+
+      
+      
+            <section
+              class="gp-mx-auto gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="gBSVfMlliC"
+        style="--border:;--rounded:;--pt:0px;--pl:15px;--pb:72px;--pr:15px;--pt-mobile:63px;--pb-mobile:63px;--pt-tablet:63px;--pb-tablet:63px;--cg:30px;--cg-tablet:28px;--cg-mobile:28px;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gBSVfMlliC gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--ai:normal;--jc:normal;--o:0"
+      class="g2t6Ec2-8S gp-relative gp-flex gp-flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gOhnbekdkh"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:0px;--cg:30px;--pc:start;--gtc:minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr);--gtc-tablet:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gOhnbekdkh gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g4Zk3z6Sxl gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="gp-group/image gbZbZ32EjH"
+    style="--border:;--borderImg:;--boxShadowBtnImg:;--hasBoxShadowImg:;--rounded:;--roundedImg:;--mb:var(--g-s-l);--ta:center"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="gp-h-full gp-w-full"
+        style="border-radius:inherit;--ta:center"
+      >
+        
+  {%- liquid
+    assign isFetchPriorityHigh = 'false'
+    
+      assign mediaIndex = 1
+      if forloop
+        assign mediaIndex = forloop.index
+      endif
+      assign sectionPreload = "false"
+
+      if section.settings.section_preload == 'true'
+        assign sectionPreload = "true"
+      endif
+      if sectionPreload == "true" and mediaIndex == 1
+        assign isFetchPriorityHigh = 'true'
+      endif
+  -%}
+  {%- if isFetchPriorityHigh == 'true' -%}
+    <img
+      quality="70" title="Image Title"
+      
+      draggable="false"
+      class="!gp-inline gp-h-full gp-max-w-full gp-flex"
+      src="https://ucarecdn.com/c10b90f2-9c33-4094-9221-3832b9ce8cfd/-/format/auto/" width="195" height="195" alt="Alt Image"
+      fetchpriority="high"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:195/195;--aspect-tablet:195/195;--aspect-mobile:195/195;--objf:cover;--w:130px;--w-tablet:130px;--w-mobile:130px;--h:auto;--h-tablet:auto;--h-mobile:auto;border-radius:inherit"
+    />
+  {%- else -%}
+    <img
+      quality="70" title="Image Title"
+      
+      draggable="false"
+      class="!gp-inline gp-h-full gp-max-w-full gp-flex gp_lazyload"
+      data-src="https://ucarecdn.com/c10b90f2-9c33-4094-9221-3832b9ce8cfd/-/format/auto/" data-srcset="https://ucarecdn.com/c10b90f2-9c33-4094-9221-3832b9ce8cfd/-/format/auto/ 768w,https://ucarecdn.com/c10b90f2-9c33-4094-9221-3832b9ce8cfd/-/format/auto/ 1024w,https://ucarecdn.com/c10b90f2-9c33-4094-9221-3832b9ce8cfd/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="195" height="195" alt="Alt Image"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:195/195;--aspect-tablet:195/195;--aspect-mobile:195/195;--objf:cover;--w:130px;--w-tablet:130px;--w-mobile:130px;--h:auto;--h-tablet:auto;--h-mobile:auto;border-radius:inherit"
+    />
+  {%- endif -%}
+  
+      </div>
+  </div>
+    <div
+      parentTag="Col"
+        class="gm3j0SNW-9 "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <h2
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-heading, heading);--weight:700;--ls:normal;--lh:150%;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden"
+        ><p>Free Shipping</p></h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gWSU1754ri "
+        style="--tt:default;--ta:center;--border:;--rounded:;--pt:0px;--mb-tablet:var(--g-s-2xl);--textColor:#424242"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <div
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-body, body);--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >Free shipping with all orders
+from April 1 to April 17</div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gw9WKjwMLj gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="gp-group/image gr73oS4YER"
+    style="--border:;--borderImg:;--boxShadowBtnImg:;--hasBoxShadowImg:;--rounded:;--roundedImg:;--mb:var(--g-s-l);--ta:center"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="gp-h-full gp-w-full"
+        style="border-radius:inherit;--ta:center"
+      >
+        
+  {%- liquid
+    assign isFetchPriorityHigh = 'false'
+    
+      assign mediaIndex = 1
+      if forloop
+        assign mediaIndex = forloop.index
+      endif
+      assign sectionPreload = "false"
+
+      if section.settings.section_preload == 'true'
+        assign sectionPreload = "true"
+      endif
+      if sectionPreload == "true" and mediaIndex == 1
+        assign isFetchPriorityHigh = 'true'
+      endif
+  -%}
+  {%- if isFetchPriorityHigh == 'true' -%}
+    <img
+      quality="70" title="Image Title"
+      
+      draggable="false"
+      class="!gp-inline gp-h-full gp-max-w-full gp-flex"
+      src="https://ucarecdn.com/56e7975a-1af0-4915-b8e0-37fdb41df006/-/format/auto/" width="195" height="195" alt="Alt Image"
+      fetchpriority="high"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:195/195;--aspect-tablet:195/195;--aspect-mobile:195/195;--objf:cover;--w:130px;--w-tablet:130px;--w-mobile:130px;--h:auto;--h-tablet:auto;--h-mobile:auto;border-radius:inherit"
+    />
+  {%- else -%}
+    <img
+      quality="70" title="Image Title"
+      
+      draggable="false"
+      class="!gp-inline gp-h-full gp-max-w-full gp-flex gp_lazyload"
+      data-src="https://ucarecdn.com/56e7975a-1af0-4915-b8e0-37fdb41df006/-/format/auto/" data-srcset="https://ucarecdn.com/56e7975a-1af0-4915-b8e0-37fdb41df006/-/format/auto/ 768w,https://ucarecdn.com/56e7975a-1af0-4915-b8e0-37fdb41df006/-/format/auto/ 1024w,https://ucarecdn.com/56e7975a-1af0-4915-b8e0-37fdb41df006/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="195" height="195" alt="Alt Image"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:195/195;--aspect-tablet:195/195;--aspect-mobile:195/195;--objf:cover;--w:130px;--w-tablet:130px;--w-mobile:130px;--h:auto;--h-tablet:auto;--h-mobile:auto;border-radius:inherit"
+    />
+  {%- endif -%}
+  
+      </div>
+  </div>
+    <div
+      parentTag="Col"
+        class="gcNYzKIIU8 "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <h2
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-heading, heading);--weight:700;--ls:normal;--lh:150%;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden"
+        ><p>7-Day Return</p></h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gNVDW8jTnb "
+        style="--tt:default;--ta:center;--border:;--rounded:;--pt:0px;--mb-tablet:var(--g-s-2xl);--textColor:#424242"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <div
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-body, body);--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >We accept returns within 7 days
+if there is any defect</div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gC5KvqCxGr gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="gp-group/image ghi0cN3XP9"
+    style="--border:;--borderImg:;--boxShadowBtnImg:;--hasBoxShadowImg:;--rounded:;--roundedImg:;--mb:var(--g-s-l);--ta:center"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="gp-h-full gp-w-full"
+        style="border-radius:inherit;--ta:center"
+      >
+        
+  {%- liquid
+    assign isFetchPriorityHigh = 'false'
+    
+      assign mediaIndex = 1
+      if forloop
+        assign mediaIndex = forloop.index
+      endif
+      assign sectionPreload = "false"
+
+      if section.settings.section_preload == 'true'
+        assign sectionPreload = "true"
+      endif
+      if sectionPreload == "true" and mediaIndex == 1
+        assign isFetchPriorityHigh = 'true'
+      endif
+  -%}
+  {%- if isFetchPriorityHigh == 'true' -%}
+    <img
+      quality="70" title="Image Title"
+      
+      draggable="false"
+      class="!gp-inline gp-h-full gp-max-w-full gp-flex"
+      src="https://ucarecdn.com/6fca5f2a-f0c1-4e57-ba92-d60af89201de/-/format/auto/" width="195" height="195" alt="Alt Image"
+      fetchpriority="high"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:195/195;--aspect-tablet:195/195;--aspect-mobile:195/195;--objf:cover;--w:130px;--w-tablet:130px;--w-mobile:130px;--h:auto;--h-tablet:auto;--h-mobile:auto;border-radius:inherit"
+    />
+  {%- else -%}
+    <img
+      quality="70" title="Image Title"
+      
+      draggable="false"
+      class="!gp-inline gp-h-full gp-max-w-full gp-flex gp_lazyload"
+      data-src="https://ucarecdn.com/6fca5f2a-f0c1-4e57-ba92-d60af89201de/-/format/auto/" data-srcset="https://ucarecdn.com/6fca5f2a-f0c1-4e57-ba92-d60af89201de/-/format/auto/ 768w,https://ucarecdn.com/6fca5f2a-f0c1-4e57-ba92-d60af89201de/-/format/auto/ 1024w,https://ucarecdn.com/6fca5f2a-f0c1-4e57-ba92-d60af89201de/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="195" height="195" alt="Alt Image"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:195/195;--aspect-tablet:195/195;--aspect-mobile:195/195;--objf:cover;--w:130px;--w-tablet:130px;--w-mobile:130px;--h:auto;--h-tablet:auto;--h-mobile:auto;border-radius:inherit"
+    />
+  {%- endif -%}
+  
+      </div>
+  </div>
+    <div
+      parentTag="Col"
+        class="gw55aM76cC "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <h2
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-heading, heading);--weight:700;--ls:normal;--lh:150%;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden"
+        ><p>Damage Compensation</p></h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gsJEfJo1Dd "
+        style="--tt:default;--ta:center;--border:;--rounded:;--pt:0px;--mb-tablet:var(--g-s-2xl);--textColor:#424242"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <div
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-body, body);--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >We will compensate or exchange in case you receive a defective order</div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gK4mLhE687 gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="gp-group/image glX3HO2m6B"
+    style="--border:;--borderImg:;--boxShadowBtnImg:;--hasBoxShadowImg:;--rounded:;--roundedImg:;--mb:var(--g-s-l);--ta:center"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="gp-h-full gp-w-full"
+        style="border-radius:inherit;--ta:center"
+      >
+        
+  {%- liquid
+    assign isFetchPriorityHigh = 'false'
+    
+      assign mediaIndex = 1
+      if forloop
+        assign mediaIndex = forloop.index
+      endif
+      assign sectionPreload = "false"
+
+      if section.settings.section_preload == 'true'
+        assign sectionPreload = "true"
+      endif
+      if sectionPreload == "true" and mediaIndex == 1
+        assign isFetchPriorityHigh = 'true'
+      endif
+  -%}
+  {%- if isFetchPriorityHigh == 'true' -%}
+    <img
+      quality="70" title="Image Title"
+      
+      draggable="false"
+      class="!gp-inline gp-h-full gp-max-w-full gp-flex"
+      src="https://ucarecdn.com/cadb03d3-e3db-4553-bd55-6350936642df/-/format/auto/" width="195" height="195" alt="Alt Image"
+      fetchpriority="high"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:195/195;--aspect-tablet:195/195;--aspect-mobile:195/195;--objf:cover;--w:130px;--w-tablet:130px;--w-mobile:130px;--h:auto;--h-tablet:auto;--h-mobile:auto;border-radius:inherit"
+    />
+  {%- else -%}
+    <img
+      quality="70" title="Image Title"
+      
+      draggable="false"
+      class="!gp-inline gp-h-full gp-max-w-full gp-flex gp_lazyload"
+      data-src="https://ucarecdn.com/cadb03d3-e3db-4553-bd55-6350936642df/-/format/auto/" data-srcset="https://ucarecdn.com/cadb03d3-e3db-4553-bd55-6350936642df/-/format/auto/ 768w,https://ucarecdn.com/cadb03d3-e3db-4553-bd55-6350936642df/-/format/auto/ 1024w,https://ucarecdn.com/cadb03d3-e3db-4553-bd55-6350936642df/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="195" height="195" alt="Alt Image"
+      quality-type={}
+      quality-percent={}
+      data-sizes="auto"
+      sizes="100vw"
+      style="--aspect:195/195;--aspect-tablet:195/195;--aspect-mobile:195/195;--objf:cover;--w:130px;--w-tablet:130px;--w-mobile:130px;--h:auto;--h-tablet:auto;--h-mobile:auto;border-radius:inherit"
+    />
+  {%- endif -%}
+  
+      </div>
+  </div>
+    <div
+      parentTag="Col"
+        class="gG8aw97_hN "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <h2
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-heading, heading);--weight:700;--ls:normal;--lh:150%;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden"
+        ><p>Expert Customer Service</p></h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="g1Rxq3Yfec "
+        style="--tt:default;--ta:center;--border:;--rounded:;--pt:0px;--mb-mobile:var(--g-s-l);--mb-tablet:var(--g-s-2xl);--textColor:#424242"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <div
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--c:#424242;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-body, body);--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        ><p>We offer phone and chat support to help with all questions</p></div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+<style {% if section.settings.section_preload == "false" %} class="gps-link" type="text/disabled-css" {% endif %}>@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW3w.woff) format('woff');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZtRSW3w.woff) format('woff');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6z9mXgjU0.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6z9mXgjU0.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+{% schema %}
+  {
+    
+    "name": "Section 0",
+    "tag": "section",
+    "class": "gps-502513502812963784 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/eevo-motors-holding/apps/bold/app/shopify/edit?pageType=GP_INDEX&editorId=502513502477353928&sectionId=502513502812963784)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"}],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}
