@@ -75,7 +75,7 @@
         "title": "X Cruiz Electric Bike",
         "text": "<p><em>Style | Performance | Comfort<\/em><br\/><br\/>Whether you are a daily commuter, surf lover or dog parent the X Cruiz has got you covered. Our high performance E-Bike gets you where you need to go in comfort and style. Built to last with a lightweight frame, dependable battery and unmatched performance. <\/p>",
         "button_label": "Get Yours Today!",
-        "button_link": "shopify:\/\/products\/x-cruiz",
+        "button_link": "shopify:\/\/products\/x-cruiz-electric-bike",
         "button_style": "primary",
         "align_text": "center",
         "image_width": "50",
@@ -213,7 +213,7 @@
         "complementary_products_HKdR89"
       ],
       "settings": {
-        "featured_product": "x-cruiz",
+        "featured_product": "x-cruiz-electric-bike",
         "divider": false,
         "sku_enable": false,
         "image_size": "medium",
@@ -383,7 +383,7 @@
         "product_yEWmh4": {
           "type": "product",
           "settings": {
-            "featured_product": "x-cruiz",
+            "featured_product": "x-cruiz-electric-bike",
             "vertical": 45,
             "horizontal": 86
           }
