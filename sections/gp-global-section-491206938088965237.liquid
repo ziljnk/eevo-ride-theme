@@ -1,5 +1,5 @@
 
-{% render 'gp-head', 'isThemeSection: true' %}
+{% render 'gp-head', isThemeSection: true %}
 <link {% if section.settings.section_preload == "false" %} class="gps-link" delay="{{ 'gp-section-491206938088965237.css' | asset_url }}" {% else %} href="{{ 'gp-section-491206938088965237.css' | asset_url }}" {% endif %} rel="stylesheet" type="text/css" media="all">
 
       
@@ -1438,3 +1438,13 @@
     "blocks": [{"type": "@app"}]
   }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'gp-head', 'isThemeSection: true' %}"
+  to: "{% render 'gp-head', isThemeSection: true %}"
+  position: 1..45
+{% endcomment %}
